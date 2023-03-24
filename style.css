@@ -1,7 +1,26 @@
+
+body{
+    margin: 10px;
+    color: #344563;
+}
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-grow: 0;
+}
+
+h1 {
+  font-size: 18px;
+  text-align: center;
+  color: #6070ff;
+}
+h2 {
+  font-size: 40px;
+}
+h3{
+    color: #6070ff;
 }
 
 .burger {
@@ -12,6 +31,32 @@ header {
   display: block;
   width: 16px;
   height: 2px;
-  background: blue;
+  background: #6070ff;
   margin-bottom: 4px;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style-type: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+footer .connect {
+  font-size: 0.8em;
+  color: #6070ff;
+}
+footer .social-media {
+  display: flex;
+  grid-row: 2;
+  justify-content: flex-start;
+}
+
+
