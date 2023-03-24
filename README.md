@@ -2,7 +2,7 @@
 
 <div align="center">
  
-  <img src="./profile.jpg" alt="logo" width="140"  height="auto" />
+  <img src="./images/profile.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>MSA Portfolio</b></h3>
